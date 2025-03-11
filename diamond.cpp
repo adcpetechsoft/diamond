@@ -34,7 +34,8 @@ void diamond_make(int diamond_size)
             {
                 cout<<" ";
             };
-            vertical ++;
+
+           vertical ++;
         };
 
         c=c-2;
@@ -86,11 +87,6 @@ void diamond_make(int diamond_size)
         horizontal--;
 
     };
-
-
-
-
-
 
 };
 
