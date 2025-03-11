@@ -97,7 +97,7 @@ int main(int argc, char *argv[])
 
     using namespace std;
 
-    for(i=1; i<=9; i++)
+    for(i=1; i<=DSIZE_MAX; i++)
     {
         diamond_make(i);
         cout<<endl;
